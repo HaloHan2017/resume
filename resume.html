@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+</head>
+<style>
+    .container {
+        width: 80%;
+        height: 600px;
+        margin: 10px auto;
+        position: relative;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        overflow: hidden;
+        border-radius: 4px;
+    }
+    .leftBox {
+        width: 350px;
+        height: 100%;
+        background: #616161;
+        padding: 15px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        box-sizing: border-box;
+    }
+    .leftBox .head {
+        width: 100%;
+        text-align: center;
+        margin: 25px 0;
+    }
+    .leftBox .head h1 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .leftBox div {
+        position: relative;
+    }
+    .leftBox .leftTitle {
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        position: relative;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        border-color: #6B3645;
+        background-color: #ABADB0;
+        margin: 5px 0 15px 30px;
+        font-size: 22px;
+        border-radius: 0 4px 0 0;
+        display: inline-block;
+        padding-left: 20px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    .leftBox ul {
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+    .leftBox ul li {
+        color: #ddd;
+        margin: 5px 0;
+    }
+    .leftBox ul li span {
+        font-size: 16px;
+        color: #ABADB0;
+        font-weight: bold;
+    }
+    .leftBox p {
+        padding-left: 50px;
+        color: #eee;
+        font-size: 16px;
+    }
+    .rightBox {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 10px 40px 40px 400px;
+        background: #fff;
+    }
+    .rightBox .rightTitle {
+        font-size: 24px;
+        color: #394A5A;
+        line-height: 30px;
+        border-bottom: 1px solid #394A5A;
+        margin: 30px 0 15px -5px;
+    }
+    .rightBox .itemList li p {
+        font-size: 15px;
+        color: #616161;
+        line-height: 23px;
+        margin-bottom: 5px;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="leftBox">
+        <div class="head">
+            <h1>Jerry的简历</h1>
+        </div>
+        <div class="basicInfo">
+            <h2 class="leftTitle">基本信息</h2>
+            <ul>
+                <li><span>名字：</span>Jerry</li>
+                <li><span>性别：</span>男</li>
+                <li><span>毕业院校：</span>XX大学</li>
+                <li><span>毕业时间：</span>2020年6月</li>
+                </li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2 class="leftTitle">联系方式</h2>
+            <ul>
+                <li><span><i></i>电话：</span>1XXXXXXXXXX</li>
+                <li><span><i></i>邮箱：</span>xxx123@qq.com</li>
+                <li><span><i></i>QQ：</span>123456789</li>
+            </ul>
+        </div>
+    </div>
+    <div class="rightBox">
+        <h3 class="rightTitle"><i></i>个人技能</h3>
+        <ul class="itemList">
+            <li>
+                <h5>HTML/CSS</h5>
+                <p>
+                    熟悉HTML5、CSS3样式基础知识和常用标签的意义以及基本用法，能熟练查阅资料
+                </p>
+            </li>
+            <li>
+                <h5>JavaScript</h5>
+                <p>
+                    熟悉原生Javascript，能脱离 jQuery 等类库编码
+                </p>
+            </li>
+            <li>
+                <h5>Java</h5>
+                <p>
+                    熟悉Java集合类、IO流，拥有良好的编程能力和代码规范
+                </p>
+                <p>
+                    熟悉多线程知识，了解同步锁机制、线程池和死锁。
+                </p>
+            </li>
+            <li>
+                <h5>框架</h5>
+                <p>
+                    熟悉SpringMVC，Spring，Mybatis框架，理解IOC和AOP的原理
+                </p>
+            </li>
+        </ul>
+        <h3 class="rightTitle"><i></i>自我评价</h3>
+        <ul class="itemList" style="list-style: none">
+            <li>
+                <p>
+                    本人乐观开朗，严于律己，能吃苦耐劳，拥有刻苦钻研的精神，英语拥有CET-6证书
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
